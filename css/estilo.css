@@ -5,6 +5,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Sacramento';
   src: url('../fonts/Sacramento-Regular.ttf') format('truetype');
@@ -12,6 +13,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 :root {
 --amarelo: #FEDA18;
 --rosa: #ffd4d4;
@@ -60,6 +62,7 @@ a { text-decoration: none; }
   font-size: .95rem;
   transition: color .3s;
 }
+
 .navbar-nav .nav-link:hover { color: var(--dourado); }
 
 .btn-cta {
@@ -97,6 +100,7 @@ a { text-decoration: none; }
   font-size: .8rem;
   margin-bottom: 1rem;
 }
+
 
 .hero-title {
   font-size: clamp(2.2rem, 4.5vw, 3.6rem);
@@ -388,9 +392,9 @@ line-height: 1.8;
   box-shadow: 0 12px 30px rgba(37,211,102,.75);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 30px) {
   .hero-img {
-    max-width: 280px;
+    max-width:30px;
   }
   .hero-img img {
     max-width: 100%;
