@@ -1,13 +1,251 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Âmina</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilo.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ânima - Desenvolvimento e Psicologia | São Gonçalo do Rio Abaixo</title>
+  <meta name="description" content="Espaço em São Gonçalo do Rio Abaixo dedicado ao seu bem-estar. Psicoterapia, consultorias NR-01, avaliação psicológica e palestras." />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/estilo.css" />
 </head>
 <body>
-    
+
+  <header class="header fixed-top">
+    <nav class="navbar navbar-expand-lg container">
+      <a class="navbar-brand" href="#inicio">
+        <img src="img/logo-horizontal.png" alt="Ânima - Desenvolvimento e Psicologia" class="logo" />
+      </a>
+  <br> <br>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+<br> <br>
+      <div class="collapse navbar-collapse justify-content-end" id="menuPrincipal">
+        <ul class="navbar-nav gap-lg-4 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#etica">Ética</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          <li class="nav-item">
+            <a class="btn btn-cta btn-sm" href="https://wa.me/5531973345419" target="_blank" rel="noopener">Agende sua Consulta</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+<br> <br>
+<br> <br>
+<hr>
+  <section id="inicio" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7 hero-text">
+          <span class="hero-tag">Ânima - Desenvolvimento e Psicologia</span>
+          <h1 class="hero-title">Um espaço em São Gonçalo do Rio Abaixo dedicado ao seu bem-estar!</h1>
+          <p class="hero-subtitle">Cuidamos de pessoas e organizações com ciência e sensibilidade.</p>
+          <a href="https://wa.me/5531973345419" target="_blank" rel="noopener" class="btn btn-cta btn-lg">
+            <i class="fa-brands fa-whatsapp me-2"></i>Agende sua Consulta
+          </a>
+        </div>
+        <div class="col-lg-5 text-center hero-img">
+          <img src="img/arvore-cerebro.png" alt="Símbolo Ânima: árvore com cérebro, flores e pássaro" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+<hr>
+  <section id="sobre" class="section sobre">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="section-tag">Sobre Nós</span>
+          <h2 class="section-title">Acolhimento, ciência e desenvolvimento humano</h2>
+          <p>A <strong>Ânima - Desenvolvimento e Psicologia</strong> nasce com o propósito de promover saúde mental, desenvolvimento humano e qualidade de vida, oferecendo serviços especializados tanto para <strong>pessoas</strong> quanto para <strong>organizações</strong>.</p>
+          <p>Atuamos em São Gonçalo do Rio Abaixo com uma escuta sensível, ética e baseada em evidências, auxiliando cada pessoa e cada instituição a ressignificar histórias e construir relações mais saudáveis.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="missao-card">
+            <span class="section-tag">Nossa Missão</span>
+            <p class="missao-texto">“Oferecer um cuidado psicológico ético, humano e baseado na ciência, auxiliando no desenvolvimento emocional e na construção de uma vida mais equilibrada e consciente.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<hr>
+  <section id="servicos" class="section servicos">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Nossos Serviços</span>
+        <h2 class="section-title">Como podemos cuidar de você ou da sua empresa</h2>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="servico-card h-100">
+            <div class="servico-icone">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <h3>Psicoterapia individual</h3>
+            <p>Atendimento para adolescentes e adultos, com escuta acolhedora e base científica.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="servico-card h-100">
+            <div class="servico-icone">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <h3>Consultorias para organizações</h3>
+            <p>Atuação conforme a <strong>NR-01</strong>, promovendo saúde mental no ambiente de trabalho.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="servico-card h-100">
+            <div class="servico-icone">
+              <i class="fa-solid fa-clipboard-check"></i>
+            </div>
+            <h3>Avaliação psicológica</h3>
+            <p>Processos avaliativos éticos e criteriosos, com devolutiva cuidadosa.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="servico-card h-100">
+            <div class="servico-icone">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h3>Campanhas e palestras</h3>
+            <p>Temas voltados à saúde mental, desenvolvimento humano e qualidade de vida.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<hr>
+  <section id="etica" class="section etica">
+    <div class="container text-center">
+      <span class="section-tag">Acreditação e Ética</span>
+      <h2 class="section-title">Atuação responsável e compromisso ético</h2>
+      <p class="etica-texto">Nosso trabalho segue rigorosamente os princípios do Código de Ética Profissional do Psicólogo, com transparência, sigilo e respeito à singularidade de cada história.</p>
+      <div class="crp-badge">
+        <i class="fa-solid fa-certificate"></i>
+        <span>CRP: 04/78609</span>
+      </div>
+    </div>
+  </section>
+<hr>
+  <section id="contato" class="section contato">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Entre em Contato</span>
+        <h2 class="section-title">Vamos conversar?</h2>
+      </div>
+
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <ul class="contato-lista">
+            <li>
+              <i class="fa-brands fa-whatsapp"></i>
+              <a href="https://wa.me/5531973345419" target="_blank" rel="noopener">(31) 97334-5419</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-instagram"></i>
+              <a href="https://instagram.com/anima_desenvolvimento" target="_blank" rel="noopener">@anima_desenvolvimento</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:animadesenvolvimentopsicologia@gmail.com">animadesenvolvimentopsicologia@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>São Gonçalo do Rio Abaixo - MG</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-7">
+          <form class="form-contato" action="#" method="post">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" name="nome" required />
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" required />
+              </div>
+              <div class="col-md-6">
+                <label for="telefone" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="telefone" name="telefone" required />
+              </div>
+              <div class="col-12">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-cta w-100">Enviar Mensagem</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+<hr>
+  <footer class="footer">
+    <div class="footer-faixa">
+      <img src="img/faixa-dourada.png" alt="" aria-hidden="true" />
+    </div>
+
+    <div class="footer-conteudo">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <img src="img/logo-horizontal.png" alt="Ânima" class="footer-logo" />
+            <p class="mt-3">Cuidamos de pessoas e organizações com ciência e sensibilidade.</p>
+          </div>
+
+          <div class="col-lg-4">
+            <h5>Links Rápidos</h5>
+            <ul class="footer-links">
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre Nós</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#etica">Ética</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h5>Redes Sociais</h5>
+            <div class="footer-social">
+              <a href="https://instagram.com/anima_desenvolvimento" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://wa.me/5531973345419" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="mailto:animadesenvolvimentopsicologia@gmail.com" aria-label="E-mail"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="crp-footer">CRP: 04/78609</p>
+          </div>
+        </div>
+
+        <hr />
+        <div class="footer-bottom text-center">
+          <p> &copy; 2026 Ânima - Desenvolvimento e Psicologia. Todos os direitos reservados.</p>
+          <p class="creditos">Desenvolvido por <strong>Gabrielly</strong> - Aluno SENAI</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<hr>
+  <a href="https://wa.me/5531973345419" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Fale conosco pelo WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+<hr>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
