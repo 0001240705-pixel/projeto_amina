@@ -5,7 +5,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: 'Sacramento';
   src: url('../fonts/Sacramento-Regular.ttf') format('truetype');
@@ -101,7 +100,6 @@ a { text-decoration: none; }
   margin-bottom: 1rem;
 }
 
-
 .hero-title {
   font-size: clamp(2.2rem, 4.5vw, 3.6rem);
   line-height: 1.15;
@@ -109,6 +107,7 @@ a { text-decoration: none; }
   color: var(--dourado-escuro);
   font-weight: 700;
 }
+
 .hero-subtitle {
   font-family: var(--fonte-titulo);
   font-size: 1.9rem;
@@ -117,15 +116,10 @@ a { text-decoration: none; }
   line-height: 1.2;
 }
 
-.hero-img {
-  max-width: 42px;
-  margin: 0 auto;
-}
-
 .hero-img img {
-  width: 40px !important;
-  max-width: 50px !important;
-  height: auto;
+  width: 200px !important;
+  max-width: 200px !important;
+  height: auto !important;
   display: block;
   margin: 0 auto;
   filter: drop-shadow(0 10px 30px rgba(201, 146, 46, .15));
@@ -159,7 +153,8 @@ a { text-decoration: none; }
 }
 
 .missao-texto {
-font-family: var(--fonte-texto);
+  font-family: 
+var(--fonte-texto);
 font-size: 1.15rem;
 font-style: italic;
 color: var(--texto);
@@ -243,6 +238,7 @@ line-height: 1.8;
   list-style: none;
   padding: 0;
 }
+
 .contato-lista li {
   display: flex;
   align-items: center;
@@ -271,6 +267,7 @@ line-height: 1.8;
   border-radius: 18px;
   box-shadow: 0 10px 30px rgba(0,0,0,.05);
 }
+
 .form-contato .form-control {
   border: 1.5px solid #EDE6DC;
   border-radius: 12px;
@@ -299,14 +296,14 @@ line-height: 1.8;
   padding-top: 0;
 }
 .footer-faixa {
-  width: 100%;
-  line-height: 0;
-  margin-bottom: -1px;
+ width: 100%;
+ line-height: 0;
+margin-bottom: -1px;
 }
 .footer-faixa img {
-  width: 100%;
-  height: auto;
-  display: block;
+width: 100%;
+height: auto;
+display: block;
 }
 .footer-conteudo {
   background-color: var(--dourado);
@@ -318,6 +315,7 @@ line-height: 1.8;
   padding: 8px 16px;
   border-radius: 12px;
 }
+
 .footer h5 {
   color: var(--branco);
   margin-bottom: 1.1rem;
@@ -325,6 +323,7 @@ line-height: 1.8;
   font-weight: 700;
   letter-spacing: .5px;
 }
+
 .footer-links { list-style: none; padding: 0; }
 .footer-links li { margin-bottom: .55rem; }
 .footer-links a {
@@ -332,6 +331,7 @@ line-height: 1.8;
   transition: all .3s;
   font-size: .95rem;
 }
+
 .footer-links a:hover {
   color: var(--amarelo);
   padding-left: 4px;
@@ -349,11 +349,13 @@ line-height: 1.8;
   transition: all .3s;
   font-size: 1.1rem;
 }
+
 .footer-social a:hover {
   background-color: var(--branco);
   color: var(--dourado);
   transform: translateY(-3px);
 }
+
 .crp-footer {
   margin-top: 1.2rem;
   color: var(--branco);
@@ -385,20 +387,27 @@ line-height: 1.8;
   z-index: 999;
   transition: all .3s ease;
 }
-
 .whatsapp-float:hover {
   transform: scale(1.12);
   color: var(--branco);
   box-shadow: 0 12px 30px rgba(37,211,102,.75);
 }
 
-@media (max-width: 30px) {
-  .hero-img {
-    max-width:30px;
-  }
+@media (max-width: 991px) {
+  body { padding-top: 80px; }
+  .logo { height: 60px; }
+  .hero { min-height: auto; padding: 3.5rem 0; text-align: center; }
+  .hero-img { margin-top: 2rem; }
   .hero-img img {
-    max-width: 100%;
+    width: 160px !important;
+    max-width: 160px !important;
   }
+
+.hero-subtitle { font-size: 1.5rem; }
+  .section { padding: 3.5rem 0; }
+  .navbar-nav { text-align: center; padding-top: 1rem; }
+  .navbar-nav .btn-cta { margin-top: .6rem; }
+  .footer-logo { margin: 0 auto; display: block; }
 }
 
 @media (max-width: 576px) {
@@ -412,5 +421,6 @@ line-height: 1.8;
     font-size: 1.75rem;
     bottom: 18px; right: 18px;
   }
+
   .crp-badge { font-size: 1rem; padding: .75rem 1.6rem; }
 }
